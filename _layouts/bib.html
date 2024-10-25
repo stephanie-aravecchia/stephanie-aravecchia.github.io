@@ -1,0 +1,15 @@
+---
+---
+{% if entry.hidden_url %}
+<a href="{{ entry.hidden_url }}">{{reference}}</a>
+{% else %} {{reference}} {% endif %}
+{% if entry.link %}
+<small><a href="{{ entry.link }}">
+        {% if entry.link_text %}
+            {{ entry.link_text }}
+        {% else %} 
+            {{ entry.link }}
+        {% endif %}
+    </a></small>
+{% endif %} 
+
