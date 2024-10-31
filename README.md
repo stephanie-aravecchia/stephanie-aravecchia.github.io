@@ -1,1 +1,0 @@
-# stephanie-aravecchia.github.io
